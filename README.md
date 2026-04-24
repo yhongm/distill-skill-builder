@@ -13,8 +13,7 @@
 - **通用爬取策略**：静态 HTML → `requests + BeautifulSoup`；动态渲染 → `playwright` 无头浏览器
 - **知识蒸馏法**：无法爬取的 SPA 站点，基于领域知识结构编写结构化参考文档
 - **8 维质量评估**：触发词、元数据、核心内容、快速参考、避坑指南、来源标注、参考文档、输出格式
-- **A 级标准**：综合得分 ≥90 为 A 级，≥95 为 A+ 级，完整达标参考 [Apple Design (99.0)](https://github.com/anthropic/claude-code/tree/main/.claude/skills/apple-design)
-
+- **A 级标准**：综合得分 ≥90 为 A 级，≥95 为 A+ 级
 ## 流水线概览
 
 ```
