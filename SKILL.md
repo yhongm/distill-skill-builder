@@ -640,7 +640,7 @@ content = content.replace(old, new)
 
 ```bash
 SKILL_NAME="<skill-name>"
-CLAUDE_DIR="/mnt/c/Users/yhong/.claude/skills/${SKILL_NAME}"
+CLAUDE_DIR="$HOME/.claude/skills/${SKILL_NAME}"
 HERMES_DIR="$HOME/.hermes/skills/${SKILL_NAME}"
 
 # 创建目录
